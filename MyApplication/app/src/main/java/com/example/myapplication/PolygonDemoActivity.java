@@ -429,7 +429,7 @@ public class PolygonDemoActivity extends AppCompatActivity
             (myLocation.getLatitude() < (points.get(j).latitude - points.get(i).latitude) * (myLocation.getLongitude() - points.get(i).longitude) / (points.get(j).longitude-points.get(i).longitude) + points.get(i).latitude))))== false){
         {
 
-            String number = "05542596353";  // The number on which you want to send SMS
+            String number = "XXXXXXX";  // The number on which you want to send SMS
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.fromParts("sms", number, null)));
         }
 
